@@ -2,6 +2,7 @@
   {
     "name": "Medical Resume Agent",
     "category": "求职与申请",
+    "subcategory": "医学简历与科研经历",
     "tags": ["医学简历", "证据绑定", "中文", "Agent"],
     "summary": "把零散的医学科研经历整理成可核查、可迁移、面向目标岗位的简历表达。",
     "url": "https://github.com/melody-yu112358/medical-resume-agent",
@@ -20,6 +21,7 @@
   {
     "name": "Scientific Agent Skills",
     "category": "学术研究",
+    "subcategory": "科研工作流与工具导航",
     "tags": ["科学研究", "生信", "文献", "多平台"],
     "summary": "覆盖生信、药物发现、临床研究、科学写作和数据库访问的大型科学 Skill 集合。",
     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
@@ -38,6 +40,7 @@
   {
     "name": "SciAgent-Skills",
     "category": "生物信息学",
+    "subcategory": "组学分析与科研计算",
     "tags": ["RNA-seq", "单细胞", "蛋白组", "Benchmark"],
     "summary": "面向生命科学分析的 Skill 库，覆盖组学、生物统计、药物发现和科学写作。",
     "url": "https://github.com/jaechang-hits/SciAgent-Skills",
@@ -56,6 +59,7 @@
   {
     "name": "Awesome Genomic Skills",
     "category": "生物信息学",
+    "subcategory": "基因组学资源发现",
     "tags": ["基因组学", "MCP", "目录", "Benchmark"],
     "summary": "基因组学和生信 Agent Skill、MCP、研究系统及评测资源的精选目录。",
     "url": "https://github.com/GoekeLab/awesome-genomic-skills",
@@ -74,6 +78,7 @@
   {
     "name": "Awesome Medical AI Skills",
     "category": "临床研究",
+    "subcategory": "医疗 AI 生态与工具发现",
     "tags": ["医疗 AI", "临床", "MCP", "目录"],
     "summary": "医疗、临床研究、生信、药物发现和 MCP 工具的综合目录。",
     "url": "https://github.com/JuneYaooo/awesome-medical-ai-skills",
@@ -92,6 +97,7 @@
   {
     "name": "Medical Research Skills",
     "category": "学术研究",
+    "subcategory": "医学研究全流程",
     "tags": ["文献", "统计", "Meta", "医学写作"],
     "summary": "聚焦医学研究流程的 Skill 集合，覆盖证据综合、研究设计、数据分析和论文写作。",
     "url": "https://github.com/aperivue/medical-research-skills",
@@ -108,37 +114,37 @@
     "checked_at": "2026-09-18"
   },
   {
-    "name": "ReproRun", "category": "学术研究", "tags": ["论文复现", "代码发现", "环境构建", "中文"],
+    "name": "ReproRun", "category": "学术研究", "subcategory": "论文复现与结果核查", "tags": ["论文复现", "代码发现", "环境构建", "中文"],
     "summary": "把论文中的数值主张转成可执行的复现任务，检查代码、环境和结果是否能重现。",
     "url": "https://github.com/WUBING2023/ReproRun", "best_for": "想复现论文结果、学习分析流程或核查论文数值的学生和研究者。",
     "task": "论文复现与结果核查", "outputs": "复现计划、环境、运行结果和差异报告", "prerequisites": "论文、代码/数据线索；能处理基础开发环境", "difficulty": "需要技术基础", "type": "Skill + multi-agent workflow", "platform": "兼容 Skill 的 AI coding agent", "evidence": ["有 Demo", "可复现", "中文说明"], "risk": "复现失败不等于论文错误，需区分环境、数据和实现差异。", "limitations": "非所有论文都提供可用代码、数据或许可。", "checked_at": "2026-09-18"
   },
   {
-    "name": "meta-pipe", "category": "学术研究", "tags": ["Meta 分析", "系统综述", "Python", "可复现"],
+    "name": "meta-pipe", "category": "学术研究", "subcategory": "系统综述与 Meta 分析", "tags": ["Meta 分析", "系统综述", "Python", "可复现"],
     "summary": "面向系统综述和 Meta 分析的端到端研究管线，从研究问题走向分析和论文材料。",
     "url": "https://github.com/htlin222/meta-pipe", "best_for": "已经有研究问题，想结构化推进 Meta 分析项目的用户。",
     "task": "Meta 分析项目启动", "outputs": "项目脚手架、筛选/提取结构和分析产出", "prerequisites": "系统综述方法和 Meta 分析基础；需要配置环境", "difficulty": "研究基础", "type": "Workflow + coding agent", "platform": "Claude Code / Python", "evidence": ["有 Demo", "可复现"], "risk": "筛选、提取和统计决策仍由研究团队负责。", "limitations": "不应把自动生成的分析当作最终论文结果。", "checked_at": "2026-09-18"
   },
   {
-    "name": "Nature Paper Skills", "category": "学术研究", "tags": ["Nature", "论文精读", "投稿策略", "写作"],
+    "name": "Nature Paper Skills", "category": "学术研究", "subcategory": "论文精读与期刊写作", "tags": ["Nature", "论文精读", "投稿策略", "写作"],
     "summary": "围绕 Nature 系列期刊定位、论文分析和科研写作的 Skill 集合。",
     "url": "https://github.com/Boom5426/Nature-Paper-Skills", "best_for": "想理解高水平论文结构、期刊定位和研究表达的学生。",
     "task": "高水平论文阅读与写作", "outputs": "结构化精读、期刊定位和写作检查清单", "prerequisites": "具备基本论文阅读能力；需结合期刊官方指南", "difficulty": "入门到研究基础", "type": "Skill library", "platform": "兼容 Skill 的 AI agent", "evidence": ["目录收录", "有公开说明"], "risk": "不能保证投稿接收，也不能替代领域专家判断。", "limitations": "期刊政策和编辑偏好会变化，需核对最新官方要求。", "checked_at": "2026-09-18"
   },
   {
-    "name": "NaturePanelForge", "category": "学术研究", "tags": ["科研作图", "图版复现", "Nature", "Codex"],
+    "name": "NaturePanelForge", "category": "学术研究", "subcategory": "科研作图与图版复现", "tags": ["科研作图", "图版复现", "Nature", "Codex"],
     "summary": "把论文图像拆成 panel 级可执行的绘图代码重构任务，适合学习高水平图表表达。",
     "url": "https://github.com/littlepeachs/NaturePanelForge", "best_for": "想学习论文图表结构、重构绘图代码或制作可复现图版的研究者。",
     "task": "论文图表拆解与复现", "outputs": "图版拆解、绘图任务清单和代码重构结果", "prerequisites": "Python/R 绘图基础；需要可用的论文或图像", "difficulty": "需要编程基础", "type": "Codex skill + workflow", "platform": "Codex / AI coding agent", "evidence": ["有公开说明"], "risk": "不得把复现图表冒充原创结果或绕过版权限制。", "limitations": "图像重构质量取决于原图、数据和许可情况。", "checked_at": "2026-09-18"
   },
   {
-    "name": "MedSci Skills", "category": "临床研究", "tags": ["文献", "统计", "Meta", "合规"],
+    "name": "MedSci Skills", "category": "临床研究", "subcategory": "临床研究与投稿合规", "tags": ["文献", "统计", "Meta", "合规"],
     "summary": "从文献检索、研究设计、统计、图表到报告规范和投稿检查的临床研究 Skill 集合。",
     "url": "https://github.com/Aperivue/medsci-skills", "best_for": "需要把临床研究流程推进到论文提交和返修阶段的研究者。",
     "task": "临床研究与论文投稿", "outputs": "研究方案、统计分析、图表、合规检查和投稿材料", "prerequisites": "医学研究基础；统计任务需要 R/Python", "difficulty": "研究基础", "type": "Skill library + workflow", "platform": "Claude Code / Codex / Cursor / Copilot", "evidence": ["有 Demo", "官方说明", "可复现"], "risk": "检查结果需由研究者和临床专家确认。", "limitations": "自动化流程不能替代伦理、统计和医学责任审查。", "checked_at": "2026-09-18"
   },
   {
-    "name": "Career Agent", "category": "学术职业决策", "tags": ["经历画像", "岗位匹配", "申请材料", "Career"],
+    "name": "Career Agent", "category": "学术职业决策", "subcategory": "经历画像与岗位探索", "tags": ["经历画像", "岗位匹配", "申请材料", "Career"],
     "summary": "将个人经历整理成结构化技能画像，并辅助生成面向具体岗位的申请材料。",
     "url": "https://github.com/lucasrucu/career-agent", "best_for": "想把长期经历、技能和目标岗位联系起来的求职者；可作为医学职业工具的参考。",
     "task": "经历画像与岗位探索", "outputs": "技能画像、岗位匹配线索和定向申请材料", "prerequisites": "已有简历或经历记录；需要具体岗位描述", "difficulty": "入门", "type": "Web agent reference", "platform": "网页 Agent", "evidence": ["公开 PRD"], "risk": "通用岗位匹配不等于医学职业建议，也不保证录用。", "limitations": "不是医学专用工具，需结合专业岗位要求使用。", "checked_at": "2026-09-18"
