@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Medical AI Skill Atlas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav><span class="mark">M</span><span>Medical AI Skill Atlas</span><a href="https://github.com/melody-yu112358/medical-ai-skill-atlas">GitHub ↗</a></nav>
+    <div class="hero-copy">
+      <p class="eyebrow">FOR MEDICAL STUDENTS &amp; RESEARCHERS</p>
+      <h1>找到适合你下一步的<br><em>医学 AI Skill</em></h1>
+      <p class="lede">从科研入门、生信分析到简历与申请，按任务而不是按热度发现工具，理解它能做什么，也知道它不能替代什么。</p>
+      <div class="hero-stats"><span><strong id="skill-count">—</strong><small> 个收录项目</small></span><span><strong>6</strong><small> 个主分类</small></span><span><strong>0</strong><small> 虚构评分</small></span></div>
+    </div>
+  </header>
+  <main>
+    <section class="toolbar">
+      <div class="section-intro"><p class="eyebrow">EXPLORE THE ATLAS</p><h2>按你的任务开始</h2></div>
+      <input id="search" type="search" placeholder="搜索项目、标签或任务…" aria-label="搜索项目">
+    </section>
+    <div id="filters" class="filters"></div>
+    <section id="cards" class="cards" aria-live="polite"></section>
+    <section class="principles"><div><p class="eyebrow">OUR PRINCIPLE</p><h2>目录不是排行榜。</h2></div><p>我们把“作者宣称”“有 Demo”“可复现”“有 Benchmark”分开记录，不用一个看似精确的分数掩盖不同项目之间的用途差异。医疗相关工具还会明确研究用途、隐私要求和专业判断边界。</p></section>
+  </main>
+  <footer><span>Medical AI Skill Atlas · Early catalog</span><span>欢迎提交脱敏、可验证的项目</span></footer>
+  <script src="app.js"></script>
+</body>
+</html>
